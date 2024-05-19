@@ -1,0 +1,48 @@
+# System
+
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Build
+
+bin
+
+# Compiled
+
+*.class
+*.com
+*.dll
+*.exe
+*.o
+*.so
+
+# Archive
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Miscellaneous
+
+*.bak
+*.log
+*.sql
+*.sqlite
+*.swp
+*.tmp
+
+# Editor
+
+.classpath
+.idea
+.project
+.settings
+.vscode
