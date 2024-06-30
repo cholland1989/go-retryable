@@ -1,5 +1,5 @@
-CGO_ENABLED=0
-GOAMD64=v4
+CGO_ENABLED?=0
+GOAMD64?=v4
 
 clean:
 	rm -rf bin/
