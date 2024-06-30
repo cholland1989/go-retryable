@@ -166,7 +166,7 @@ func (client *Client) Do(request *http.Request) (response *http.Response, err er
 	// Convert panics into an error
 	defer client.panicHandler(&err)
 
-	// Extract seekable request body
+	// Ensure request body can be reset
 	err = client.prepareRequestBody(request)
 	if err != nil {
 		return nil, err
